@@ -1,23 +1,26 @@
-<div class="container-fluid">
-  <div class="row banner-home">
-    <div class="col-md-3">
-      <img src="https://c2.staticflickr.com/6/5105/5626762538_406270541c_b.jpg">
-    </div>
-    <div class="col-md-9">
-      <h1>Il cioccolato più buono? Lo trovi da noi!</h1>
-    </div>
-  </div>
-  <div class="row">
+<html>
+  <head>
+    <title>Sample "Hello, World" Application</title>
+  </head>
+  <body bgcolor=white>
 
-      <?php /* foreach($this->prodottiEvidenza as $prodotto) {
-          echo $this->partial('partials/prodotto.phtml', ['prodotto' => $prodotto]);
-      } */?>
-      <p>qweqweqweqwe</p><br/>
-      <p>asdasdsad</p><br/>
-      <p>zxczxcxzc</p><br/>
-      <p>123132132</p><br/>
-      <p>654654654</p><br/>
+    <table border="0" cellpadding="10">
+      <tr>
+        <td>
+          <img src="http://www.fpamelard.fr/IMG/png/logo-zend-framework-50.png">
+        </td>
+        <td>
+          <h1>Sample "Hello, World" Application</h1>
+        </td>
+      </tr>
+    </table>
 
+    <p>This is the home page for the HelloWorld Web application. </p>
+    <p>To prove that they work, you can execute either of the following links:
+    <ul>
+      <li>To a <a href="<?=$this->url('Application/istruzioni')?>">Istruzioni</a>.
+      <li>To a <a href="http:www.google.com/ncr">GoOgLe</a>.
+    </ul>
 
-  </div>
-</div>
+  </body>
+</html>
