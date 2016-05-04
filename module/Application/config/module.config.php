@@ -31,7 +31,7 @@ return array(
                 'options' => array(
                     'route'    => '/application',
                     'defaults' => array(
-                        '__NAMESPACE__' => 'Application',
+                        '__NAMESPACE__' => 'Application\Controller',
                         'controller'    => 'Index',
                         'action'        => 'index',
                     ),
